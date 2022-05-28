@@ -16,7 +16,7 @@ struct TextFieldIcon: View {
            
            
             Color("ShadowC")
-                .cornerRadius(12)
+                .cornerRadius(13)
                 .opacity(0.8)
                 .blur(radius: 3.0)
         
