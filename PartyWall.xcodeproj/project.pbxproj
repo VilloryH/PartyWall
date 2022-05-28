@@ -27,7 +27,6 @@
 		0C5555B4275FE6490001BA36 /* PosterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C5555B3275FE6490001BA36 /* PosterModel.swift */; };
 		0C5692A627B1D67900C32D0E /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 0C5692A527B1D67900C32D0E /* FirebaseAuth */; };
 		0C5692A827B1D67900C32D0E /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 0C5692A727B1D67900C32D0E /* FirebaseDatabase */; };
-		0C5692AA27B1D67900C32D0E /* FirebaseDatabaseSwift-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = 0C5692A927B1D67900C32D0E /* FirebaseDatabaseSwift-Beta */; };
 		0C5692AC27B1D67900C32D0E /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 0C5692AB27B1D67900C32D0E /* FirebaseFirestore */; };
 		0C5692AE27B1D67900C32D0E /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = 0C5692AD27B1D67900C32D0E /* FirebaseMessaging */; };
 		0C5692B027B1D67900C32D0E /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 0C5692AF27B1D67900C32D0E /* FirebaseStorage */; };
@@ -107,7 +106,6 @@
 				0C5692AE27B1D67900C32D0E /* FirebaseMessaging in Frameworks */,
 				0C5692A827B1D67900C32D0E /* FirebaseDatabase in Frameworks */,
 				0CD66D0B27B05B6500ADA1FA /* Lottie in Frameworks */,
-				0C5692AA27B1D67900C32D0E /* FirebaseDatabaseSwift-Beta in Frameworks */,
 				0CE5DF1727B42DA00086671A /* SDWebImageSwiftUI in Frameworks */,
 				0C5692B027B1D67900C32D0E /* FirebaseStorage in Frameworks */,
 				0C5692AC27B1D67900C32D0E /* FirebaseFirestore in Frameworks */,
@@ -305,7 +303,6 @@
 				0CD66D0A27B05B6500ADA1FA /* Lottie */,
 				0C5692A527B1D67900C32D0E /* FirebaseAuth */,
 				0C5692A727B1D67900C32D0E /* FirebaseDatabase */,
-				0C5692A927B1D67900C32D0E /* FirebaseDatabaseSwift-Beta */,
 				0C5692AB27B1D67900C32D0E /* FirebaseFirestore */,
 				0C5692AD27B1D67900C32D0E /* FirebaseMessaging */,
 				0C5692AF27B1D67900C32D0E /* FirebaseStorage */,
@@ -627,7 +624,7 @@
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
 			requirement = {
-				kind = upToNextMajorVersion;
+				kind = upToNextMinorVersion;
 				minimumVersion = 8.0.0;
 			};
 		};
@@ -659,11 +656,6 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 0C5692A427B1D67900C32D0E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
 			productName = FirebaseDatabase;
-		};
-		0C5692A927B1D67900C32D0E /* FirebaseDatabaseSwift-Beta */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 0C5692A427B1D67900C32D0E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = "FirebaseDatabaseSwift-Beta";
 		};
 		0C5692AB27B1D67900C32D0E /* FirebaseFirestore */ = {
 			isa = XCSwiftPackageProductDependency;
